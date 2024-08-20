@@ -39,13 +39,14 @@ python main.py
 ## Example
 Suppose you have the following NFA:
 
-* States: q0, q1, q2
-* Alphabet: 0, 1
-* Start State: q0
-* Accepting States: q2
+* States: `q0, q1, q2`
+* Alphabet: `0, 1`
+* Start State: `q0`
+* Accepting States: `q2`
 * Transitions:
-  * q0 --0--> q0, q1
-  * q1 --1--> q2
+  * `q0 --0--> q0, q1`
+  * `q1 --1--> q2`
+    
 After running the tool, the equivalent DFA will be generated, and you will be able to check if specific sequences are accepted by this DFA. Additionally, a graphical representation of the DFA will be saved.
 
 ### Sample DFA
