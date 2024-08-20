@@ -28,9 +28,8 @@ pip install -r requirements.txt
 python main.py
 ```
 2. Input Format:
-
-* Number of states q, alphabet size s, number of accepting states a, number of transitions m, and number of sequences n.
-* Followed by the alphabet symbols, start state, accepting states, and transitions in the format start_state symbol end_state.
+  * Number of states q, alphabet size s, number of accepting states a, number of transitions m, and number of sequences n.
+  * Followed by the alphabet symbols, start state, accepting states, and transitions in the format start_state symbol end_state.
   
 3. Validation: After converting the NFA to DFA, the program will validate whether the provided sequences are accepted by the DFA.
 
